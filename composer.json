@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Eli Grey",
-            "homepage": http://eligrey.com"
+            "homepage": "http://eligrey.com"
         }
     ],
     "require": {
