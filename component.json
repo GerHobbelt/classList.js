@@ -7,7 +7,7 @@
   "dependencies": {},
   "development": {},
   "license": "MIT",
-  "main": "classList.js",
+  "main": "index.js",
   "scripts": [
     "index.js"
   ]
