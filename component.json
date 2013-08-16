@@ -1,0 +1,14 @@
+{
+  "name": "classList.js",
+  "repo": "chemzqm/classList.js",
+  "description": "classList polyfill script",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
