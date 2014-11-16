@@ -9,9 +9,6 @@
             "homepage": "http://eligrey.com"
         }
     ],
-    "require": {
-        "robloach/component-installer": "*"
-    },
     "extra": {
         "component": {
             "name": "classlist",
