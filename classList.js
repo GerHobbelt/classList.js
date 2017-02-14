@@ -1,20 +1,22 @@
 /*
  * classList.js: Cross-browser full element.classList implementation.
- * 2014-07-23
+ * 1.1.20150312
  *
  * By Eli Grey, http://eligrey.com
- * Public Domain.
- * NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+ * License: Dedicated to the public domain.
+ *   See https://github.com/eligrey/classList.js/blob/master/LICENSE.md
  */
 
 /*global self, document, DOMException */
 
-/*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js*/
+/*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
 
 if ("document" in self) {
 
 // Full polyfill for browsers with no classList support
-if (!("classList" in document.createElement("_"))) {
+// Including IE < Edge missing SVGElement.classList
+if (!("classList" in document.createElement("_")) 
+	|| document.createElementNS && !("classList" in document.createElementNS("http://www.w3.org/2000/svg","g"))) {
 
 (function (view) {
 
